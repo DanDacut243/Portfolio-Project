@@ -10,7 +10,7 @@ const About: React.FC = () => {
             <Header />
             <main className={styles.main}>
                 <h1>About Me</h1>
-                <p className={styles.lead}>I am a frontend developer who focuses on accessible and well-tested user interfaces. I enjoy turning complex problems into simple, beautiful interfaces.</p>
+                <p className={styles.lead}>I am a full-stack developer who focuses on accessible and well-tested user interfaces. I enjoy turning complex problems into simple, beautiful interfaces.</p>
 
                 <section className={styles.section}>
                     <h2>The Hero Statement</h2>

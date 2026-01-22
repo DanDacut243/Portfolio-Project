@@ -8,7 +8,7 @@ import styles from '../styles/layout.module.css';
 
 const featured = [
     {
-        title: 'Project Alpha',
+        title: 'Web Application',
         description: 'A responsive web app that demonstrates growth: accessibility, performance, and a component library.',
         link: 'https://example.com/alpha'
     },
@@ -35,7 +35,7 @@ const HomePage = () => {
 
                     <section id="about" className={styles.section}>
                         <h2>About</h2>
-                        <p className={styles.lead}>I am a frontend developer focused on building accessible, maintainable, and fast user experiences. My work emphasizes clarity, performance, and a strong UX foundation.</p>
+                        <p className={styles.lead}>I am a full-stack developer focused on building accessible, maintainable, and fast user experiences. My work emphasizes clarity, performance, and a strong UX foundation.</p>
                     </section>
 
                     <section id="projects" className={styles.section}>
@@ -49,11 +49,8 @@ const HomePage = () => {
 
                     <GrowthTab />
                 </main>
-
-                <aside className={styles.pageAvatar} aria-hidden>
-                    <img src="/images/avatar.svg" alt="Nico Paolo L. Baltazar" />
-                </aside>
             </div>
+
             <Footer />
         </div>
     );
