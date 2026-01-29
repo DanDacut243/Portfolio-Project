@@ -30,7 +30,6 @@ a {
 .hero {
     position: relative;
     overflow: hidden;
-    /* layered stylized background: soft radial color blobs + dark gradient for readability */
     background-color: #0b1220;
     background-image:
         radial-gradient(circle at 10% 20%, rgba(56,189,248,0.06) 0%, transparent 18%),
@@ -46,7 +45,6 @@ a {
 }
 
 .hero::after {
-    /* subtle noise / vignette for texture */
     content: "";
     pointer-events: none;
     position: absolute;

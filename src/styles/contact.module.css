@@ -1,0 +1,98 @@
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 860px) {
+  .contactContainer {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.infoCard,
+.formCard {
+  background: #0f1724;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  color: #e6eef8;
+  overflow: hidden;
+}
+
+.infoCard h2,
+.formCard h2 {
+  font-size: 1.25rem;
+  margin: 0 0 12px 0;
+}
+
+.infoList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.infoList a {
+  color: #93c5fd;
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+}
+
+.group {
+  display: grid;
+  gap: 6px;
+}
+
+.group label {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.group input,
+.group textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: #0b1220;
+  color: #e6eef8;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.group input:focus,
+.group textarea:focus {
+  outline: none;
+  border-color: #06b6d4;
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.whatsappBtn {
+  background: linear-gradient(180deg, #25D366, #1fa855);
+  color: #062023;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.smsBtn {
+  background: linear-gradient(180deg, #f59e0b, #d97706);
+  color: #062023;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}

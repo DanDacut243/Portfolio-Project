@@ -8,7 +8,7 @@ export interface Project {
 
 export interface Skill {
     name: string;
-    level: number; // Level can be represented as a percentage
+    level: number;
 }
 
 export interface Portfolio {
